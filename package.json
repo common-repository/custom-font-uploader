@@ -1,0 +1,18 @@
+{
+	"author": "Wbcom Designs",
+	"bugs": {
+		"url": "https://github.com/wbcomdesigns/custom-font-uploader"
+	},
+	"description": "Custom Font Uploader is a powerful, extendable, google webfonts plugin that helps you to use google fonts in your theme",
+	"devDependencies": {
+		"grunt": "^1.1.0",
+		"grunt-checktextdomain": "~1.0.1",
+		"grunt-wp-i18n": "~1.0.2"
+	},
+	"engines": {
+		"node": ">=6.9.1"
+	},
+	"dependencies": {
+		"load-grunt-tasks": "^5.0.0"
+	}
+}

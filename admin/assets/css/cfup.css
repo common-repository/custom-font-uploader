@@ -1,0 +1,269 @@
+.nav-tab-wrapper ul li.cfup-general-settings a.nav-tab::before {
+	content: "\f111";
+}
+
+.nav-tab-wrapper ul li.custom-font-uploader-settings a.nav-tab::before {
+	content: "\f13b";
+}
+
+.nav-tab-wrapper ul li.google-font-uploader-settings a.nav-tab::before {
+	content: "\f18b";
+}
+
+.nav-tab-wrapper ul li.cfup-support a.nav-tab::before {
+	content: "\f101";
+}
+
+.wbcom-cfup-notice {
+	border-radius: 8px;
+	padding: 10px 18px;
+	background: #ffe0e0;
+	font-weight: 500;
+	color: #ff4141;
+	margin-bottom: 15px;
+}
+
+.wbcom-faq-section-row:hover p a {
+	color: #fff;
+}
+
+.wbcom-settings-section-options-heading span {
+	display: block;
+}
+
+.wbcom-upload-font-msg {
+	margin-bottom: 15px;
+	font-size: 15px;
+}
+
+.wbcom-add-font-button-section input#open_add_font,
+.cfu_form.cfu_upload_form-wrap input.button-primary {
+	line-height: 55px;
+	padding: 15px 45px;
+	font-size: 15px;
+	background: #2a32ef;
+	color: #fff;
+	line-height: 1.5;
+	display: inline-block;
+	text-shadow: none;
+	font-weight: 600;
+	margin-bottom: 30px;
+	border: 0;
+	transition: all 0.3s;
+	box-shadow: 0px 10px 25px rgba(32, 53, 85, 0.35);
+	border-radius: 12px;
+}
+
+.wbcom-add-font-button-section input#open_add_font:hover,
+.cfu_form.cfu_upload_form-wrap input.button-primary:hover {
+	background: #272B41;
+}
+
+.cfu_form.cfu_upload_form-wrap {
+	display: flex;
+	align-items: center;
+}
+
+.cfu_form.cfu_upload_form-wrap input.button-primary {
+	margin: 0;
+	box-shadow: 0px 5px 15px rgba(32, 53, 85, 0.35);
+}
+
+div#font-upload {
+	padding: 20px;
+}
+
+.cfu_upload_item {
+	margin-right: 25px;
+}
+
+div#message.error.is-dismissible {
+	position: relative;
+	background: #e1e6f4;
+	border-radius: 8px;
+}
+
+#wpbody .file-success-msg {
+	background: #fff none repeat scroll 0 0;
+	border-left: 5px solid green;
+	height: 25px;
+	padding-left: 5px;
+	padding-top: 8px;
+	text-align: center;
+	width: 45%;
+}
+
+.cfup-admin-loader {
+	display: none;
+}
+
+.gfupdate {
+	background: #fff none repeat scroll 0 0;
+	border-left: 5px solid green;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: center;
+	width: 30%;
+	margin-top: 10px;
+}
+
+div#message.notice.is-dismissible {
+	border: none;
+	box-shadow: none;
+	border-radius: 8px;
+	padding: 10px 15px;
+	background: #dbefdb;
+	font-weight: 500;
+	color: #0fb432;
+}
+
+.wbcom-wrap .notice.notice-error.is-dismissible.learndash-license-is-dismissible,
+.wbcom-wrap .notice.notice-error {
+	display: none !important;
+}
+
+
+/** The preview screen **/
+
+.wbcom-admin-option-wrap.wbcom-google-select-fonts {
+	display: flex;
+	justify-content: space-between;
+}
+
+.font-preview-section,
+.wbcom-admin-option-wrap.wbcom-google-select-fonts .gfont {
+	background: #fff;
+	border-radius: 12px;
+	padding: 25px;
+	border: 1px solid rgba(200, 197, 218, 0.30);
+	box-shadow: 5px 5px 20px rgba(32, 53, 85, 0.10);
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.wbcom-admin-option-wrap.wbcom-google-select-fonts .gfont {
+	width: 43%;
+}
+
+.font-preview-section {
+	float: right;
+	width: 45%;
+}
+
+.googletbl {
+	width: 100%;
+}
+
+#googlefonts_options {
+	overflow: hidden;
+	width: 100%;
+}
+
+.wbcom-admin-option-wrap.wbcom-google-select-fonts strong {
+	line-height: normal;
+	display: block;
+	margin-bottom: 15px;
+}
+
+.font-preview-section h3.add_text {
+	margin: 0;
+}
+
+.cfup-google-font-disabled {
+	pointer-events: none;
+	opacity: 0.3;
+	background: #CCC;
+}
+
+.cfup-google-font-disabled-msg {
+	color: red;
+	font-size: large;
+}
+
+.cfup-google-font-disabled-msg a {
+	color: red;
+}
+
+div#s2id_googlefont-select {
+	width: 100%;
+}
+
+.delete-googlefont {
+	color: red;
+}
+
+
+/*SUPPORT*/
+
+.cfup-adming-setting {
+	float: left;
+	width: 90%;
+}
+
+button.cfup-accordion {
+	background-color: hsl(0, 0%, 87%);
+	border: medium none;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	color: hsl(0, 0%, 27%);
+	cursor: pointer;
+	font-size: 15px;
+	margin: 0 5%;
+	outline: medium none;
+	padding: 15px 20px;
+	text-align: left;
+	transition: all 0.4s ease 0s;
+	width: 90%;
+}
+
+button.cfup-accordion.active,
+button.cfup-accordion:hover {
+	background-color: hsl(207, 90%, 54%);
+	color: white;
+}
+
+.wbcom-wrap.wbcom-plugin-wrapper div.panel {
+	padding: 0 18px;
+	background-color: white;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	margin: 0px 5%;
+}
+
+button.cfup-accordion::after {
+	color: hsl(0, 0%, 47%);
+	content: "+";
+	float: right;
+	font-size: 13px;
+	font-weight: bold;
+	margin-left: 5px;
+}
+
+button.cfup-accordion::after:hover {
+	color: white;
+}
+
+button.cfup-accordion.active::after {
+	content: "−";
+	color: white;
+}
+
+.cfup-admin-row {
+	clear: both;
+	overflow: hidden;
+	padding-bottom: 5px;
+}
+
+.cfup-tab-header h3 {
+	margin-left: 5%;
+}
+
+
+/*SUPPORT*/
+
+@media only screen and (max-width: 600px) {
+	.wbcom-admin-option-wrap {
+		padding: 20px !important;
+	}
+}
